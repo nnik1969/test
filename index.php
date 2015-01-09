@@ -272,12 +272,3 @@ nclude 'util.php';
 				killTask($killtask);
 			} else if ($canceltask != ""){
 				cancelTask($canceltask);
-			} else {
-				echo "<h1>Compilation queue status page</h1>";
-				getAllTasks(); 
-			}
-		?>
-	</body>
-</html>
-
-
